@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
                 }else{
                     bookAdapter.clear();
                     progressBar.setVisibility(View.GONE);
-                    emptyText.setText("NO INTENET CONNECTION");
+                    emptyText.setText("NO INTERNET CONNECTION");
                 }
                 }
 
